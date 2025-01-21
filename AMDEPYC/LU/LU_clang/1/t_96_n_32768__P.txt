@@ -1,0 +1,19 @@
+# started on Thu Dec  5 18:34:29 2024
+
+
+ Performance counter stats for './lu_clang_bezmarch.a.out':
+
+           349,045      page-faults:u                                               
+ 2,279,888,196,802      L1-dcache-loads:u                                           
+   545,112,881,232      L1-dcache-load-misses:u   #   23.91% of all L1-dcache accesses
+   <not supported>      LLC-loads:u                                                 
+   <not supported>      LLC-load-misses:u                                           
+   334,416,266,657      branches:u                                                  
+       135,832,646      branch-misses:u           #    0.04% of all branches        
+
+      51.253653191 seconds time elapsed
+
+    1169.454018000 seconds user
+       9.410431000 seconds sys
+
+

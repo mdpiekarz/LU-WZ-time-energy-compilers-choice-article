@@ -1,0 +1,19 @@
+# started on Tue Dec 17 10:01:19 2024
+
+
+ Performance counter stats for './wz_oneapi_march.a.out 32768 32768 1':
+
+         3,667,141      page-faults:u                                               
+20,634,471,487,944      L1-dcache-loads:u                                           
+ 2,232,910,586,590      L1-dcache-load-misses:u   #   10.82% of all L1-dcache accesses
+   <not supported>      LLC-loads:u                                                 
+   <not supported>      LLC-load-misses:u                                           
+ 4,842,163,021,846      branches:u                                                  
+     1,493,788,454      branch-misses:u           #    0.03% of all branches        
+
+     218.061490914 seconds time elapsed
+
+   15795.835699000 seconds user
+      74.471239000 seconds sys
+
+

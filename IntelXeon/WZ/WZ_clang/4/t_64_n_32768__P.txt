@@ -1,0 +1,19 @@
+# started on Tue Dec  3 11:02:51 2024
+
+
+ Performance counter stats for './wz_clang_bezmarch.a.out 32768 32768 1':
+
+         4,309,594      page-faults:u                                               
+16,867,467,073,008      L1-dcache-loads:u                                           
+ 2,211,170,350,397      L1-dcache-load-misses:u   #   13.11% of all L1-dcache accesses
+    65,185,902,786      LLC-loads:u                                                 
+    54,619,088,251      LLC-load-misses:u         #   83.79% of all LL-cache accesses
+ 5,159,181,229,509      branches:u                                                  
+       921,827,651      branch-misses:u           #    0.02% of all branches        
+
+     557.105486761 seconds time elapsed
+
+   29391.046587000 seconds user
+      76.128530000 seconds sys
+
+

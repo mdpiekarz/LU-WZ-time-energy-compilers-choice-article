@@ -1,0 +1,19 @@
+# started on Mon Dec  2 15:33:04 2024
+
+
+ Performance counter stats for './lu_oneapi_bezmarch.a.out':
+
+            88,029      page-faults:u                                               
+   820,800,975,558      L1-dcache-loads:u                                           
+   257,617,246,147      L1-dcache-load-misses:u   #   31.39% of all L1-dcache accesses
+     1,551,047,869      LLC-loads:u                                                 
+     1,286,652,630      LLC-load-misses:u         #   82.95% of all LL-cache accesses
+    71,941,153,422      branches:u                                                  
+        71,071,621      branch-misses:u           #    0.10% of all branches        
+
+      85.630221108 seconds time elapsed
+
+     729.710987000 seconds user
+      39.037013000 seconds sys
+
+

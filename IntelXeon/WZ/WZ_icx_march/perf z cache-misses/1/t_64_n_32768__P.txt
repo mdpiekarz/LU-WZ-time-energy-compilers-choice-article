@@ -1,0 +1,14 @@
+# started on Fri Jan  3 12:45:06 2025
+
+
+ Performance counter stats for './wz_oneapi_march.a.out 32768 32768 1':
+
+   758,577,820,476      cache-references:u                                          
+   717,577,652,697      cache-misses:u            #   94.595 % of all cache refs    
+
+     578.904963631 seconds time elapsed
+
+   30801.954330000 seconds user
+      78.310438000 seconds sys
+
+

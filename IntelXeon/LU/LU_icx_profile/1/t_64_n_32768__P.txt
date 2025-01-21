@@ -1,0 +1,19 @@
+# started on Tue Dec 17 12:39:51 2024
+
+
+ Performance counter stats for './lu_oneapi_profil.a.out':
+
+            78,883      page-faults:u                                               
+   823,083,250,311      L1-dcache-loads:u                                           
+   257,325,699,475      L1-dcache-load-misses:u   #   31.26% of all L1-dcache accesses
+     1,554,064,885      LLC-loads:u                                                 
+     1,285,904,647      LLC-load-misses:u         #   82.74% of all LL-cache accesses
+    74,348,923,633      branches:u                                                  
+        68,914,498      branch-misses:u           #    0.09% of all branches        
+
+      85.658530551 seconds time elapsed
+
+     732.916072000 seconds user
+      45.158226000 seconds sys
+
+

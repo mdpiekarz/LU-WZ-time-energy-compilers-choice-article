@@ -1,0 +1,19 @@
+# started on Fri Dec 20 13:01:01 2024
+
+
+ Performance counter stats for './wz_clang_profil.a.out 32768 32768 1':
+
+         3,684,622      page-faults:u                                               
+21,885,107,738,001      L1-dcache-loads:u                                           
+ 2,234,083,240,476      L1-dcache-load-misses:u   #   10.21% of all L1-dcache accesses
+   <not supported>      LLC-loads:u                                                 
+   <not supported>      LLC-load-misses:u                                           
+ 5,612,506,432,533      branches:u                                                  
+     1,289,740,961      branch-misses:u           #    0.02% of all branches        
+
+     215.467565753 seconds time elapsed
+
+   15557.541416000 seconds user
+      63.665741000 seconds sys
+
+

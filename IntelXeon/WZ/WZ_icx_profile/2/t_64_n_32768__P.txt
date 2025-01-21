@@ -1,0 +1,19 @@
+# started on Tue Dec 17 13:10:58 2024
+
+
+ Performance counter stats for './wz_oneapi_profil.a.out 32768 32768 1':
+
+         4,349,123      page-faults:u                                               
+16,204,031,198,469      L1-dcache-loads:u                                           
+ 2,210,440,601,453      L1-dcache-load-misses:u   #   13.64% of all L1-dcache accesses
+    74,768,301,632      LLC-loads:u                                                 
+    62,518,149,409      LLC-load-misses:u         #   83.62% of all LL-cache accesses
+ 4,991,067,798,309      branches:u                                                  
+       986,200,429      branch-misses:u           #    0.02% of all branches        
+
+     610.266380872 seconds time elapsed
+
+   32792.606585000 seconds user
+     100.938761000 seconds sys
+
+

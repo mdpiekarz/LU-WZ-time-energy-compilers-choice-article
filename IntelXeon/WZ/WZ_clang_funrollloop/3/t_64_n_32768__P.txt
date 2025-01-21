@@ -1,0 +1,19 @@
+# started on Mon Dec 16 19:25:23 2024
+
+
+ Performance counter stats for './wz_clang_march.a.out 32768 32768 1':
+
+         4,320,323      page-faults:u                                               
+17,037,224,009,350      L1-dcache-loads:u                                           
+ 2,211,205,724,317      L1-dcache-load-misses:u   #   12.98% of all L1-dcache accesses
+    67,611,385,527      LLC-loads:u                                                 
+    57,517,366,520      LLC-load-misses:u         #   85.07% of all LL-cache accesses
+ 5,355,284,890,636      branches:u                                                  
+       980,278,308      branch-misses:u           #    0.02% of all branches        
+
+     592.983090469 seconds time elapsed
+
+   31681.770682000 seconds user
+      81.666926000 seconds sys
+
+

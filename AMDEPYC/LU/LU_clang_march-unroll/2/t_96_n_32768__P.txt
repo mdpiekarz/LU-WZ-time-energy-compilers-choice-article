@@ -1,0 +1,19 @@
+# started on Tue Dec 17 09:39:25 2024
+
+
+ Performance counter stats for './lu_clang_march.a.out':
+
+           368,897      page-faults:u                                               
+ 2,244,149,715,297      L1-dcache-loads:u                                           
+   545,245,155,162      L1-dcache-load-misses:u   #   24.30% of all L1-dcache accesses
+   <not supported>      LLC-loads:u                                                 
+   <not supported>      LLC-load-misses:u                                           
+   301,722,826,544      branches:u                                                  
+       125,310,907      branch-misses:u           #    0.04% of all branches        
+
+      57.602172617 seconds time elapsed
+
+    1157.916728000 seconds user
+       7.852849000 seconds sys
+
+

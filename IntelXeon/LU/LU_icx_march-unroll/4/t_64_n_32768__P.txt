@@ -1,0 +1,19 @@
+# started on Mon Dec 16 15:43:24 2024
+
+
+ Performance counter stats for './lu_oneapi_march.a.out':
+
+           103,476      page-faults:u                                               
+   822,177,530,852      L1-dcache-loads:u                                           
+   259,038,596,196      L1-dcache-load-misses:u   #   31.51% of all L1-dcache accesses
+     2,424,285,781      LLC-loads:u                                                 
+     1,615,545,049      LLC-load-misses:u         #   66.64% of all LL-cache accesses
+    72,421,635,396      branches:u                                                  
+        67,914,409      branch-misses:u           #    0.09% of all branches        
+
+      86.599102794 seconds time elapsed
+
+     804.545963000 seconds user
+      35.742319000 seconds sys
+
+

@@ -1,0 +1,19 @@
+# started on Tue Dec  3 14:47:42 2024
+
+
+ Performance counter stats for './wz_oneapi_bezmarch.a.out 32768 32768 1':
+
+         4,341,364      page-faults:u                                               
+14,258,655,626,566      L1-dcache-loads:u                                           
+ 2,210,359,179,460      L1-dcache-load-misses:u   #   15.50% of all L1-dcache accesses
+    75,820,920,877      LLC-loads:u                                                 
+    63,244,258,670      LLC-load-misses:u         #   83.41% of all LL-cache accesses
+ 3,456,251,859,136      branches:u                                                  
+       694,196,439      branch-misses:u           #    0.02% of all branches        
+
+     546.995953334 seconds time elapsed
+
+   28796.446123000 seconds user
+      66.760043000 seconds sys
+
+

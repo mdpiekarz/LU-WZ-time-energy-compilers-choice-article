@@ -1,0 +1,19 @@
+# started on Sat Dec 28 11:03:24 2024
+
+
+ Performance counter stats for './lu_clang_profil.a.out':
+
+           533,436      page-faults:u                                               
+ 2,816,792,893,538      L1-dcache-loads:u                                           
+   543,873,940,912      L1-dcache-load-misses:u   #   19.31% of all L1-dcache accesses
+   <not supported>      LLC-loads:u                                                 
+   <not supported>      LLC-load-misses:u                                           
+   858,297,159,516      branches:u                                                  
+       345,632,063      branch-misses:u           #    0.04% of all branches        
+
+     107.254109200 seconds time elapsed
+
+    2235.822614000 seconds user
+      24.835014000 seconds sys
+
+
